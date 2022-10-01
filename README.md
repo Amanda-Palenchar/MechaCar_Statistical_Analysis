@@ -25,4 +25,21 @@ Lot Summary
 
 ### t-Test on Suspension Coils: 
 
+A sample t-test was used to learned whether the means of the total sample and each lots sample (1, 2, and 3) were statistically different than the mean of the population, 1,500 PSI. The results are as follows and can be visualized in the images below as well: 
+- Total Sample: There is no statistical difference between the mean of the population and the mean of this sample. 
+
+![Total_Sample_t.Test](Analysis_Screenshots/Total_Sample_t.Test.png)
+
+- Lot 1 Sample: The mean of this sample is 1,500 PSI, which is equal to the population, so there is no statistical difference between the mean of Lot 1 and the mean of the population. This is further shown with the p-value of 1. 
+
+![Lot1_t.Test](Analysis_Screenshots/Lot1_t.Test.png)
+
+- Lot 2 Sample: There is no statistical difference between the mean of the population and the mean of this sample. 
+
+![Lot2_t.Test](Analysis_Screenshots/Lot2_t.Test.png)
+
+- Lot 3 Sample: There is a statistically significant difference in the mean of the population and the mean of this sample. this further supports the evidence of skew discussed in the previous section.
+
+![Lot3_t.Test](Analysis_Screenshots/Lot3_t.Test.png)
+
 ### Design a Study to Compare the MechaCar to the Competition: 
