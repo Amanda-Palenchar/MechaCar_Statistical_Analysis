@@ -42,4 +42,5 @@ A sample t-test was used to learned whether the means of the total sample and ea
 
 ![Lot3_t.Test](Analysis_Screenshots/Lot3_t.Test.png)
 
-### Design a Study to Compare the MechaCar to the Competition: 
+### Study Design: MechaCar vs. Competition
+
