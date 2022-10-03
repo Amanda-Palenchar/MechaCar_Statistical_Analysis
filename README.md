@@ -44,3 +44,10 @@ A sample t-test was used to learned whether the means of the total sample and ea
 
 ### Study Design: MechaCar vs. Competition
 
+Given the current prices for fuel in the United States, fuel economy may be top of mind for most consumers, so this analysis compares the average of a sample of prototype MechaCars to the competition. The images below are a set of t-tests of the average fuel economy of a sample of MechaCars compared to the average fuel economy of Volkswagon vehicles based on car class (sedan, convertable, etc.). In the given data, it was not specified whether the fuel economy for MechaCar samples was highway or city, so the comparison below is made between the average fuel economy of MechaCar and the average highway fuel economy of Volkswagons. Highway was chosen instead of city because highway values are generally higher and a statistically significant result for MechaCar would indicate that fuel economy for MechaCar actually is superior to Volkswagon in both types of driving. In this analysis, none of the Volkswagon fuel efficiency values were similar to that of the Mechacar, indicated by statistically significant p-values of less than 0.05 in each of the tests. In all cases, except the Volkswagon compact car category, the fuel ecomony of the MechaCar was significantly higher than the VW class. 
+
+![mpg_t.Test_1](Analysis_Screenshots/mpg_t.Test_1.png)
+
+![mpg_t.Test_2](Analysis_Screenshots/mpg_t.Test_2.png)
+
+This study is incredibly limited due to a lack of given data for both the MechaCar and its competition. A more robust analysis would have more information about the MechaCar (type of car, price point, differentiation between highway and city MPGs, repair costs, etc.) and the same would be available for the competition to make a more interesting and complete comparison.
