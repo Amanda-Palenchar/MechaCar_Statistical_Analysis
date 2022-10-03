@@ -31,3 +31,21 @@ t.test(Lot2$PSI, mu=1500) # t.test for lot 2 vs population
 Lot3 <- subset(Suspension_Coil, Manufacturing_Lot=="Lot3")
 
 t.test(Lot3$PSI, mu=1500) # t.test for lot 3 vs population
+
+# Deliverable 4
+
+VW_mpg <- read.csv(file='Vehicle_Data.csv',check.names=F,stringsAsFactors = F) #import vw csv
+
+VW_mpg_summary <- VW_mpg %>% group_by(Type) %>% summarize(Mean_HWY_Mileage=mean(MPG_Hwy), .groups = 'keep')
+
+mean(MechaCar_mpg$mpg)
+
+t.test(MechaCar_mpg$mpg, mu=57.3333) #Compact
+
+t.test(MechaCar_mpg$mpg, mu=33) #Convertable
+
+t.test(MechaCar_mpg$mpg, mu=35) #Hatchback
+
+t.test(MechaCar_mpg$mpg, mu=34.25) #Sedan
+
+t.test(MechaCar_mpg$mpg, mu=33.5) #Wagon
