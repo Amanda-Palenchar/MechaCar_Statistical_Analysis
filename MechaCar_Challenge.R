@@ -38,8 +38,6 @@ VW_mpg <- read.csv(file='Vehicle_Data.csv',check.names=F,stringsAsFactors = F) #
 
 VW_mpg_summary <- VW_mpg %>% group_by(Type) %>% summarize(Mean_HWY_Mileage=mean(MPG_Hwy), .groups = 'keep')
 
-mean(MechaCar_mpg$mpg)
-
 t.test(MechaCar_mpg$mpg, mu=57.3333) #Compact
 
 t.test(MechaCar_mpg$mpg, mu=33) #Convertable
